@@ -1408,23 +1408,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Куаныш\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Куаныш\\Downloads\\API_C--d1ce6d5b57f16d7ba2d804e0a8e2772fa29689dd\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\study_projects\\AC-API\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\Куаныш\\Downloads\\API_C--d1ce6d5b57f16d7ba2d804e0a8e2772fa29689dd\\WebApplication2\\WebApplication2.csproj",
-      "packagesPath": "C:\\Users\\Куаныш\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Куаныш\\Downloads\\API_C--d1ce6d5b57f16d7ba2d804e0a8e2772fa29689dd\\WebApplication2\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\study_projects\\AC-API\\WebApplication2\\WebApplication2.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\study_projects\\AC-API\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Куаныш\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1446,6 +1446,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1504,7 +1509,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

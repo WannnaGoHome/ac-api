@@ -24,7 +24,6 @@ public class DataBaseService
 			return user;
 		}
 	}
-
 	public async Task UpdateUserAsync(string uin, string email, string phoneNumber, string idCard)
 	{
 		var query = @"UPDATE users 
@@ -36,7 +35,6 @@ public class DataBaseService
 			await connection.ExecuteAsync(query, new { Email = email, PhoneNumber = phoneNumber, IdCard = idCard, UIN = uin });
 		}
 	}
-
 
 // Register a new user
 public async Task RegisterUserAsync(string role, string lastName, string firstName, string patronymic, string uin, string? email, string? phoneNumber, string idCard, string password, string? group)
