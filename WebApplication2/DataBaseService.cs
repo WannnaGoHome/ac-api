@@ -6,11 +6,12 @@ using Npgsql;
 public class DataBaseService
 {
 	private readonly string _connectionString;
-	private readonly ILogger<DataBaseService> _logger;
+    private readonly ILogger<DataBaseService> _logger;
 	public DataBaseService(string connectionString, ILogger<DataBaseService> logger)
 	{
 		_connectionString = connectionString;
-	}
+        _logger = logger;
+    }
 
 	public async Task<User> GetUserByUinAsync(string uin)
 	{
